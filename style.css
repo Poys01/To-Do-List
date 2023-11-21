@@ -50,6 +50,7 @@
     padding: 15px;
     background-color: transparent;
     font-weight: 14px;
+    font-size: 17px;
 }
 .row button {
     background-color: #0a9c11;
@@ -98,4 +99,21 @@ ul li.checked{
 ul li.checked::before{
     color: #666;
     background-image: url(images/checked.png);
+}
+
+ul li span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    color: #555;
+}
+ul li span:hover{
+    background-color: rgba(199, 191, 191, 0.741);
 }
